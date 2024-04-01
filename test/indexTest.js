@@ -2,7 +2,9 @@ require ( './helpers.js' );
 
 
 describe('superbowlWin(record)', function () {
+  //the array here is te record
   const record = [
+    //the objects are year and result
     { year: "2018", result: "N/A"},
     { year: "2017", result: "N/A"},
     { year: "2016", result: "N/A"},
